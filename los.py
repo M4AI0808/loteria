@@ -11,12 +11,13 @@ odpowiedz7 = 1
 odpowiedz8 = 1
 odpowiedz9 = 1
 odpowiedz10 = 1
-print ('Program ma na celu wylosować kolejnośc osób np. do gry czy do kolejki. Zasady są proste: ')
+print ('Program ma na celu wylosować 1 osobe z pozostałych. Zasady są proste: ')
 print ('1. Ten kto wylosuje najbliższą liczbe do liczby wylosowanej ten wygrywa.')
 print ('2. Wybieracie liczby od 1 do 100 włącznie z 1 i 100')
 print ('3. W losowaniu może brać udział max. 10 osób')
 print ('4. jeżeli jest mniej niż 10 osób, więc jak wszyskie osoby ')
 print ('wytypują swoje liczby w reszte wolnych slotów wpiszcie liczbe 0, wtedy program będzie ignorował te sloty.')
+print ('5.Program pokazuje tylko 1 miejscem, może w przyszłości zrobię aby pokazywał też inne miejsca :D')
 liczba = random.randint(1,100)
 odpowiedz1 = input ('Pierwsza osoba podaje liczbe: ')
 while int (odpowiedz1) > 100:
@@ -140,6 +141,5 @@ if liczba == int(odpowiedz9):
 if liczba == int(odpowiedz10):
     print ('Dziesiąta osoba trafiła perfekcyjnie')
 Lst = [odpowiedz1, odpowiedz2, odpowiedz3, odpowiedz4, odpowiedz5, odpowiedz6, odpowiedz7, odpowiedz8, odpowiedz9, odpowiedz10]
-def closest(Lst, liczba):
-    return Lst[min(range(len(Lst)), liczba = lambda i: abs(Lst[i]-liczba))]
-print('najbliżej była osoba z liczbą: ', closest(Lst, liczba))
+print ('Najbliższy numer do wylosowanego numeru to: ', min(Lst, key=lambda x:abs(int (x)-liczba)))
+print ('Co oznacza że osoba z tym numerem jest zwycięscą!!!!')
