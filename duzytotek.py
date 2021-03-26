@@ -34,11 +34,11 @@ print ("Trzecia liczba to: ", liczba3)
 print ("Czwarta liczba to: ", liczba4)
 print ("Czwarta liczba to: ", liczba5)
 if liczba1==int (odpowiedz1):
-     poprawna + 1 
+    poprawna + 1 
 if liczba2==int (odpowiedz2):
     poprawna + 1
 if liczba3==int (odpowiedz1):
-   poprawna + 1
+    poprawna + 1
 if liczba4==int (odpowiedz2):
     poprawna + 1
 if liczba5==int (odpowiedz2):
