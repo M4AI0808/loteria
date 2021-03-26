@@ -4,6 +4,9 @@
 import random
 liczba = random.randint  (1,10)
 odpowiedz = input ('Jaką liczbe od 1-17 mam na myśli?:')
+while int (odpowiedz) > 31:
+    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. ')
+    exit()
 if liczba==int (odpowiedz):
     print ("BRAWO, zgadłeś!!") #brawo
 else: 
