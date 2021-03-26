@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import random
-poprawna = 0
+poprawna = 0 #tak o 
 liczba1 = random.randint  (1,30)
 liczba2 = random.randint  (1,30)
 liczba3 = random.randint  (1,30)
