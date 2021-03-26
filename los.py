@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import random
+import random #ab
 print ('Program ma na celu wylosować kolejnośc osób np. do gry czy do kolejki. Zasady są proste: ')
 print ('1. Ten kto wylosuje najbliższą liczbe do liczby wylosowanej ten wygrywa.')
 print ('2. Wybieracie liczby od 1 do 100 włącznie z 1 i 100')
