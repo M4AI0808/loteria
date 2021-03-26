@@ -8,7 +8,6 @@ liczba2 = random.randint  (1,30)
 liczba3 = random.randint  (1,30)
 liczba4 = random.randint  (1,30)
 liczba5 = random.randint  (1,30)
-print ('jebac pedauw')
 odpowiedz1 = input ('Podaj pierwszą liczbe (1-30): ')
 while int (odpowiedz1) > 30:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. KONIEC GRY')
