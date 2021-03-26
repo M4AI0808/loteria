@@ -9,24 +9,24 @@ liczba3 = random.randint  (1,30)
 liczba4 = random.randint  (1,30)
 liczba5 = random.randint  (1,30)
 odpowiedz1 = input ('Podaj pierwszą liczbe (1-30): ')
-while int (odpowiedz1) > 30:
-    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. KONIEC GRY')
+while int (odpowiedz1) > 31:
+    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. ')
     break
 odpowiedz2 = input ('Podaj drugą liczbe (1-30): ')
-while int (odpowiedz2) > 30:
-    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. KONIEC GRY')
+while int (odpowiedz2) > 31:
+    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. ')
     break
 odpowiedz3 = input ('Podaj trzecią liczbe (1-30): ')
-while int (odpowiedz3) > 30:
-    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. KONIEC GRY')
+while int (odpowiedz3) > 31:
+    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. ')
     break
 odpowiedz4 = input ('Podaj czwartą liczbe (1-30): ')
-while int (odpowiedz4) > 30:
-    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. KONIEC GRY')
+while int (odpowiedz4) > 31:
+    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. ')
     break
 odpowiedz5 = input ('Podaj piątą liczbe (1-30): ')
-while int (odpowiedz5) > 30:
-    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. KONIEC GRY')
+while int (odpowiedz5) > 31:
+    print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. ')
     break
 print ("Pierwsza liczba to: ", liczba1)
 print ("Druga liczba to: ", liczba2)
