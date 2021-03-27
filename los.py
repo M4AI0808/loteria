@@ -20,43 +20,43 @@ print ('wytypują swoje liczby w reszte wolnych slotów wpiszcie liczbe 0, wtedy
 print ('5.Program pokazuje tylko 1 miejscem, może w przyszłości zrobię aby pokazywał też inne miejsca :D')
 liczba = random.randint(1,100)
 odpowiedz1 = input ('Pierwsza osoba podaje liczbe: ')
-while int (odpowiedz1) > 100:
+if int (odpowiedz1) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz1 = 0
 odpowiedz2 = input ('Druga osoba podaje liczbe: ')
-while int (odpowiedz2) > 100:
+if int (odpowiedz2) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz2 = 0
 odpowiedz3 = input ('Trzecia osoba podaje liczbe: ')
-while int (odpowiedz3) > 100:
+if int (odpowiedz3) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz3 = 0
 odpowiedz4 = input ('Czwarta osoba podaje liczbe: ')
-while int (odpowiedz4) > 100:
+if int (odpowiedz4) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz4 = 0
 odpowiedz5 = input ('Piąta osoba podaje liczbe: ')
-while int (odpowiedz5) > 100:
+if int (odpowiedz5) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz5 = 0
 odpowiedz6 = input ('Szósta osoba podaje liczbe: ')
-while int (odpowiedz6) > 100:
+if int (odpowiedz6) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz6 = 0
 odpowiedz7 = input ('Siódma osoba podaje liczbe: ')
-while int (odpowiedz7) > 100:
+if int (odpowiedz7) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz7 = 0
 odpowiedz8 = input ('Ósma osoba podaje liczbe: ')
-while int (odpowiedz8) > 100:
+if int (odpowiedz8) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz8 = 0
 odpowiedz9 = input ('Dziewiąta osoba podaje liczbe: ')
-while int (odpowiedz9) > 100:
+if int (odpowiedz9) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz9 = 0
 odpowiedz10 = input ('Dziesiąta osoba podaje liczbe: ')
-while int (odpowiedz10) > 100:
+if int (odpowiedz10) > 100:
     print ('ZŁa LICZBA, TYLKO LICZBY OD 1 DO 30. Zostajesz wyrzucony z losowania :C')
     odpowiedz10 = 0
 print ('Wylosowana liczba to: ', liczba)
