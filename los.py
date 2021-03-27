@@ -144,3 +144,5 @@ print ('Wylosowana liczba to: ', liczba)
 Lst = [odpowiedz1, odpowiedz2, odpowiedz3, odpowiedz4, odpowiedz5, odpowiedz6, odpowiedz7, odpowiedz8, odpowiedz9, odpowiedz10]
 print ('Najbliższy numer do wylosowanego numeru to: ', min(Lst, key=lambda x:abs(int (x)-liczba)))
 print ('Co oznacza że osoba z tym numerem jest zwycięscą!!!!')
+koniec = input('Czy program ma się wyłączyć? Y/N')
+print(koniec)
