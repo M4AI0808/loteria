@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import random 
-odpowiedz1 = 1
-odpowiedz2 = 1
-odpowiedz3 = 1
-odpowiedz4 = 1
-odpowiedz5 = 1
-odpowiedz6 = 1
-odpowiedz7 = 1
-odpowiedz8 = 1
-odpowiedz9 = 1
-odpowiedz10 = 1
+odpowiedz1 = 2
+odpowiedz2 = 2
+odpowiedz3 = 2
+odpowiedz4 = 2
+odpowiedz5 = 2
+odpowiedz6 = 2
+odpowiedz7 = 2
+odpowiedz8 = 2
+odpowiedz9 = 2
+odpowiedz10 = 2
 print ('Program ma na celu wylosować 1 osobe z pozostałych. Zasady są proste: ')
 print ('1. Ten kto wylosuje najbliższą liczbe do liczby wylosowanej ten wygrywa.')
 print ('2. Wybieracie liczby od 1 do 100 włącznie z 1 i 100')
